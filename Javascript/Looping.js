@@ -84,3 +84,20 @@
 // add(parseInt(prompt("Enter a number")), parseInt(prompt("Enter a number")));
 
 
+
+
+// let book = ["Rajesh", "Naresh", "Pradip","Bikash","Rupesh","Nitesh", 6, true] ;
+// book.push("Temp");
+// for(let i = 0; i < book.length; i++){
+//     console.log(book[i]);
+// }
+
+let sum = 0;
+function add(){
+    console.log("Rajesh Pandit");
+    console.log("Clicked on");
+    document.getElementById("temp").innerHTML = document.getElementById("temp").innerHTML + "<h1>"+ sum + "</h1>" ;
+    // let conf = confirm("Are you sure");
+    // console.log(conf);
+    sum = sum + 2;
+}
