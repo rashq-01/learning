@@ -45,15 +45,6 @@
 // }
 
 
-// var sum = 0;
-// var child = document.createElement("div");
-// document.addEventListener("click", function(){
-//     console.log("Clicked on");
-//     document.getElementById("temp").innerHTML = document.getElementById("temp").innerHTML + "<div>"+ sum + "</div>" ;
-//     // let conf = confirm("Are you sure");
-//     // console.log(conf);
-//     sum = sum + 2;
-// })
 
 
 
@@ -92,12 +83,130 @@
 //     console.log(book[i]);
 // }
 
-let sum = 0;
-function add(){
-    console.log("Rajesh Pandit");
-    console.log("Clicked on");
-    document.getElementById("temp").innerHTML = document.getElementById("temp").innerHTML + "<h1>"+ sum + "</h1>" ;
-    // let conf = confirm("Are you sure");
-    // console.log(conf);
-    sum = sum + 2;
-}
+
+// Function with a button click
+// let sum = 0;
+// function add(){
+//     console.log("Rajesh Pandit");
+//     console.log("Clicked on");
+//     document.getElementById("temp").innerHTML = document.getElementById("temp").innerHTML + "<h1>"+ sum + "</h1>" ;
+//     // let conf = confirm("Are you sure");
+//     // console.log(conf);
+//     sum = sum + 2;
+// }
+
+
+
+//Objects
+
+// let person = {
+    //     name: "Rajesh",
+//     age: 16,
+//     class: 12,
+//     address: "Bishrampur-03, Bara, Nepal"
+// };
+// function btn(){
+//     let input = parseInt(prompt("Enter 1 for name, 2 for age, 3 for class, 4 for Address"));
+//     if(input == 1){
+//         console.log(person.name);
+//         document.getElementById('h1').innerHTML = person.name;
+//     }
+//     else if(input == 2){
+//         console.log(person.age);
+//         document.getElementById('h1').innerHTML = person.age;
+//     }
+//     else if(input == 3){
+//         console.log(person.class);
+//         document.getElementById('h1').innerHTML = person.class;
+//     }
+//     else if(input == 4){
+//         console.log(person.address);
+//         document.getElementById('h1').innerHTML = person.address;
+//     }
+//     else if(input == 5){
+//         console.log(person);
+//         document.getElementById('h1').innerHTML = person;
+//     }
+//     else{
+    //         console.log("Invalid Input")
+    //         document.getElementById('h1').innerHTML = "Invalid Input";
+    //     }
+    // }
+    
+    
+
+    
+    // var user = {
+        //     name: "rajesh",
+        //     age: 16,
+        //     class: 12,
+        //     address: "Bishrampur-03, Bara, Nepal",
+        //     personalinfo: {
+            //         password: "nothing",
+            //         email: 123456789,
+            //         phone: 987654321,
+            //     }
+            // };
+
+            
+            
+            
+            // hello();
+            // function hello(){
+//     console.log("Hello function is called");
+// }
+
+// Hoisting
+
+// var x = 0;
+// var y = Boolean(x);
+// console.log(typeof(y));
+// console.log(typeof(x));
+// console.log("The value of y is ",y);
+
+// function click(){
+    //     console.log("Clicked on");
+    // }
+    
+    // let btn = document.querySelector('.btn');
+    // btn.addEventListener('click', click());
+
+    // var x = 4.9;
+    
+    // var m = Math.round(x);
+    // var m = Math.ceil(x);
+    // var m = Math.floor(x);
+    // var m = Math.trunc(x);  
+// var m = Math.pow(10,2);  
+
+// console.log(m);
+
+// function random(min, max){
+    
+//     let x = Math.floor(Math.random() * (max -min + 1) + min);
+//     return x;
+    
+
+// document.getElementById('btn').addEventListener("click", function(){
+//     console.log("Clicked on");
+//     document.getElementById("temp").innerHTML = document.getElementById("temp").innerHTML + "<div>"+ sum + "</div>" ;
+//     // let conf = confirm("Are you sure");
+//     // console.log(conf);
+//     sum = sum + 2;
+// }) 
+// // document.getElementById('btn').addEventListener('click',btn());
+
+
+
+
+
+// }
+// function generate(){
+//     var min = parseInt(document.getElementById('min').value);
+//     var max = parseInt(document.getElementById('max').value);
+//     var result = Math.floor(Math.random()*(max-min+1)+min)
+//     console.log(result);
+    
+// }
+var date = Date();
+console.log(date);
